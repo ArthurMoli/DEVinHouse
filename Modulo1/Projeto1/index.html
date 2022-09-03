@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/electric-guitar.png" />
+    <title>DEVinKnowledge</title>
+</head>
+
+    <div class="divi">
+    <header>
+<span><img src="img/book.png"><p></p>DEVin</span><span class="knl">Knowledge</span>
+<br>
+<p class="pe">Learn, Code and Save</p>
+    </header>
+    <form id="formulario">
+        <legend>Título</legend>
+        <input type="text" minlength="8" maxlength="64" required  placeholder="Digite seu título..." class="inp" id="titulo">
+        <br>
+        <legend>Linguagem/Skill</legend>
+        <input type="text" minlength="4" maxlength="16" required placeholder="Digite sua linguagem/skill..." id="skill">
+        <br>
+        <select id="select">
+            <legend>Categoria</legend>
+            <option value="Front-End">Front-End</option>
+            <option value="Back-End">Back-End</option>
+            <option value="Full-Stack">Full-Stack</option>
+            <option value="Soft-Skills">Soft-Skills</option>
+        </select>
+            <br>
+            <textarea minlength="32" maxlength="512" id="txar" rows="15" cols="36" placeholder="Escreva o detalhamento da sua dica...">
+            </textarea>
+            <br>
+            <legend>Vídeo do Youtube</legend>
+            <input type="url" placeholder="Cole a URL aqui..." id="vid">
+       <br>
+       <div class="btns">
+       <button type = "reset">Limpar</button>
+       <button type="submit" onclick="salvar()">Salvar</button>
+    </div>
+        </form>
+    </div>
+    
+    <div class="mn-ca" id="mn-ca">
+        <br>
+<div class="total">
+    <p>Total</p>
+    <p id="pe1"></p>
+</div>
+<div class="fe">
+<p>Front-End</p>
+<p id="pe2"></p>
+</div>
+<div class="be">
+    <p>Back-End</p><br>
+    <p id="pe3"></p>
+    </div>
+    <div class="fs">
+        <p>Full-Stack</p>
+        <p id="pe4"></p>
+        </div>
+        <div class="ss">
+            <p>Soft-Skills</p>
+            <p id="pe5"></p>
+            </div>
+      
+        <input type="search" placeholder="Busque um card..." class="search" id="search">
+            <button onclick = "" id="btn-search" class="btn-search"><img src="img/search.png" class="img-search"></button>     
+            <button type = "reset" onclick = "limpar()" id="btn-close" class="btn-close"><img src="img/close.png" height="48px" width="48px" class="img-close"></button>
+ 
+        </div>
+        <div id="print" class="conteudo">
+            <form>
+                <h1 id="ttldom"></h1>
+                <p id=""x></p>
+            </form>
+        </div>
+<br>
+    <script src="index.js" ></script>
+    <button onclick="deletar()" class="delete">DELETAR TUDO</button>
+</body>
+</html>

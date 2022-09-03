@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    #formulario{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+    color: white;
+    height:37em;
+    }
+    header{
+        text-align: center;
+        width: 100%;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: blueviolet;
+        position:relative;
+    
+       }
+    
+    .knl{
+    font-size: 27px;
+    }
+    .pe{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    body{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    }
+    legend{
+    font-family: 'Segoe UI';}
+    .mn-ca{
+    display: flex;
+    gap:10px;
+    }
+    .total{
+    padding: 9px;
+    font-family: 'SEGOE UI';
+    background-color: blueviolet;
+    border-radius: 6px;
+    color: white;}
+    
+    
+    .fe{
+        padding: 9px;
+        font-family: 'SEGOE UI';
+        background-color: blueviolet;
+        border-radius: 6px;
+        color: white;}
+        .be{
+            padding: 9px;
+            font-family: 'SEGOE UI';
+            background-color: blueviolet;
+            border-radius: 6px;
+            color: white;}
+            .fs{
+                padding: 9px;
+                font-family: 'SEGOE UI';
+                background-color: #8a2be2;
+                border-radius: 6px;
+                color: white;}
+        .ss{
+            padding: 9px;
+            font-family: 'SEGOE UI';
+            background-color: blueviolet;
+            border-radius: 6px;
+            color: white;}
+    
+            .search{
+            width: 400px;
+            color: #8a2be2;
+            font-family: 'SEGOE UI';
+            font-weight: bold;
+            transition:0.4s;
+            }
+            .search:hover{
+            box-shadow: 0 0 1em #8a2be2;
+            }
+    
+            .btn-search{
+            background-color: transparent;
+            border: 0px transparent;
+            }
+            .btn-close{
+                background-color: transparent;
+                border: 0px transparent;
+            }
+            .img-close{
+            transition: 0.3s;
+            }
+            .img-close:hover{
+            box-shadow: 0 0 1em #8a2be2;
+            }
+            .img-search{
+                transition: 0.3s;
+                }
+                .img-search:hover{
+                box-shadow: 0 0 1em #8a2be2;
+                }
+                
+             form input{
+                border-radius: 6px;
+                color: #8a2be2;
+                font-family: 'SEGOE UI';
+                font-weight: bold;
+                transition:0.4s;
+            }   
+            form input:hover{
+                box-shadow: 0 0 1em whitesmoke;
+            }
+            textarea{
+            border-radius: 6px;
+            color: #8a2be2;
+            font-family: 'SEGOE UI';
+            font-weight: bold;
+            transition: 0.4s;
+            }
+            textarea:hover{
+                box-shadow: 0 0 1em whitesmoke;
+            }
+            form button{
+                font-weight: bold;
+                border-radius: 6px;
+                color: #8a2be2;
+                padding: 4px;
+                transition: 0.4s;
+            }
+                form button:hover{
+                box-shadow: 0 0 1em whitesmoke;
+                }
+    
+            .btns{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            }
+    
+            #sele{
+                border-radius: 6px;
+                color: #8a2be2;
+                font-family: 'SEGOE UI';
+                font-weight: bold;
+                transition:0.4s;
+            }
+            #sele:hover{
+                box-shadow: 0 0 1em whitesmoke
+            }
+    
+            .delete{
+            padding: 9px;
+            font-family: 'SEGOE UI';
+            color: #8a2be2;
+            box-shadow: 0 0 1em #8a2be2;
+            }
